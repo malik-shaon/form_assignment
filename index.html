@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+ 
+<body>
+    <h1>  Student's Form for Awaken Camp</h1>
+
+    <form>
+        <label for="name">Student Name :</label>
+        <input type="text" id="name" name="name"><br>
+        <br>
+        <label for="mail">Email  address :</label>
+        <input type="email" id="mail" name="mail"><br>
+        <br>
+        <label for="dep">Department  :&nbsp;&nbsp;&nbsp;</label>
+        <select name="department" id="dep">
+            <option>--Choose Department--</option>
+            <option>Aerospace Engineering</option>
+            <option>Computer Enineering</option>
+            <option>Chemistry</option>
+            <option>Electrical Enginnering</option>
+            <option>Geology and Geophysics</option>
+        </select>
+        <br>
+        <p>Year :</p>
+         <input type="radio" id="First" name="yr" value="1st">
+         <label for="First">1st Year</label><br>
+         <input type="radio" id="Second" name="yr" value="2nd">
+         <label for="Second">2nd Year</label><br>  
+         <input type="radio" id="Third" name="yr" value="3rd">
+         <label for="Third">3rd Year</label><br>
+         <input type="radio" id="Fourth" name="yr" value="4th">
+         <label for="Fourth">4th Year</label><br>
+         <br>
+
+        <label for="dt">Please select a comfortable date for this camp : </label>
+        <input type="date" id="dt" name="CampDate">
+        <br>
+
+        <label for="interest">How interested are you to attend the camp : </label>
+        <input type="range" id="interest" name="interest" min="1" max="10">
+        <br>
+        
+        <label for="queries">Any Queries :</label>
+        <textarea id="queries" name="Queries" rows="5" cols="50"></textarea>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+Create a new github repository.
+
+Question:-
+Awaken is organizing a spiritual camp. Please make a registration form using HTML.
+Name, 
+email,
+ Department(dropdown), 
+Year(radio), 
+How interested are you to attend this camp(range 1-10)?
+Please choose a comfortable date for this camp(date)
+Any queries(textarea)
+Submit button
+
+Share me the github page link.
